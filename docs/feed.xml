@@ -4,7 +4,7 @@
   <id>https://mechpy.org/</id>
   <title>MechPy Docs</title>
   <subtitle>MechPy: Empowering Engineers with a Comprehensive Toolbox for Continuum Mechanics and Finite Element Method (FEM) Analysis.</subtitle>
-  <updated>2023-12-03T20:53:28+01:00</updated>
+  <updated>2023-12-03T21:02:20+01:00</updated>
   <author>
     <name>Omar BOUCHAARA</name>
     <uri>https://mechpy.org/</uri>
@@ -24,7 +24,7 @@
     <link href="https://mechpy.org/posts/welcome/" rel="alternate" type="text/html" title="Introducing MechPy Docs!" />
     <published>2023-12-01T11:46:44+01:00</published>
   
-    <updated>2023-12-01T11:46:44+01:00</updated>
+    <updated>2023-12-03T20:55:08+01:00</updated>
   
     <id>https://mechpy.org/posts/welcome/</id>
     <content src="https://mechpy.org/posts/welcome/" />
