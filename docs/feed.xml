@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://mechpy.org/</id>
-  <title>MechPy Docs</title>
+  <title>MechPy</title>
   <subtitle>MechPy: Empowering Engineers with a Comprehensive Toolbox for Continuum Mechanics and Finite Element Method (FEM) Analysis.</subtitle>
-  <updated>2023-12-03T21:29:00+01:00</updated>
+  <updated>2023-12-07T17:12:39+01:00</updated>
   <author>
     <name>Omar BOUCHAARA</name>
     <uri>https://mechpy.org/</uri>
@@ -20,9 +20,9 @@
 
   
   <entry>
-    <title>Introducing MechPy Docs!</title>
-    <link href="https://mechpy.org/posts/welcome/" rel="alternate" type="text/html" title="Introducing MechPy Docs!" />
-    <published>2023-12-01T11:46:44+01:00</published>
+    <title>Introducing MechPy!</title>
+    <link href="https://mechpy.org/posts/welcome/" rel="alternate" type="text/html" title="Introducing MechPy!" />
+    <published>2023-12-01T18:00:00+01:00</published>
   
     <updated>2023-12-03T20:55:08+01:00</updated>
   
@@ -48,9 +48,8 @@
 
 
 
-      Welcome to the first post in the MechPy Docs! This blog is dedicated to sharing insights, tutorials, and updates related to mechanical engineering concepts and their applications in Python programming.
+      Welcome to the world of MechPy, a state-of-the-art toolbox designed for experts and enthusiasts in the field of Continuum Mechanics and Finite Element Method (FEM) Analysis. MechPy offers a unique blend of features that cater to both educational and professional needs in these complex domains.
 
-In the _posts directory of our Jekyll site, you will find our blog posts. To add new content, we simply create a file in this directory with the format YYYY-MM-DD-title-of-post.md and include th...
     </summary>
   
 
