@@ -91,27 +91,27 @@ display(sp.simplify((E)), sp.simplify(nu))
 ```
 
 
-$\displaystyle \frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)}$
+$$\displaystyle \frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)}$$
 
 
 
-$\displaystyle \frac{E}{2 \nu + 2}$
+$$\displaystyle \frac{E}{2 \nu + 2}$$
 
 
 
-$\displaystyle \frac{E \left(\frac{3 E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{2 E}{2 \nu + 2}\right)}{\left(2 \nu + 2\right) \left(\frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{E}{2 \nu + 2}\right)}$
+$$\displaystyle \frac{E \left(\frac{3 E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{2 E}{2 \nu + 2}\right)}{\left(2 \nu + 2\right) \left(\frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{E}{2 \nu + 2}\right)}$$
 
 
 
-$\displaystyle \frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right) \left(\frac{2 E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{2 E}{2 \nu + 2}\right)}$
+$$\displaystyle \frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right) \left(\frac{2 E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{2 E}{2 \nu + 2}\right)}$$
 
 
 
-$\displaystyle E$
+$$\displaystyle E$$
 
 
 
-$\displaystyle \nu$
+$$\displaystyle \nu$$
 
 
 
@@ -127,11 +127,11 @@ display(symbolic_isotropic_material.compliance_tensor().data)
 
 
 
-$\displaystyle \left[\begin{matrix}\lambda + 2 \mu & \lambda & \lambda & 0 & 0 & 0\\\lambda & \lambda + 2 \mu & \lambda & 0 & 0 & 0\\\lambda & \lambda & \lambda + 2 \mu & 0 & 0 & 0\\0 & 0 & 0 & \mu & 0 & 0\\0 & 0 & 0 & 0 & \mu & 0\\0 & 0 & 0 & 0 & 0 & \mu\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\lambda + 2 \mu & \lambda & \lambda & 0 & 0 & 0\\\lambda & \lambda + 2 \mu & \lambda & 0 & 0 & 0\\\lambda & \lambda & \lambda + 2 \mu & 0 & 0 & 0\\0 & 0 & 0 & \mu & 0 & 0\\0 & 0 & 0 & 0 & \mu & 0\\0 & 0 & 0 & 0 & 0 & \mu\end{matrix}\right]$$
 
 
 
-$\displaystyle \left[\begin{matrix}\frac{1}{E} & - \frac{\nu}{E} & - \frac{\nu}{E} & 0 & 0 & 0\\- \frac{\nu}{E} & \frac{1}{E} & - \frac{\nu}{E} & 0 & 0 & 0\\- \frac{\nu}{E} & - \frac{\nu}{E} & \frac{1}{E} & 0 & 0 & 0\\0 & 0 & 0 & \frac{2 \left(\nu + 1\right)}{E} & 0 & 0\\0 & 0 & 0 & 0 & \frac{2 \left(\nu + 1\right)}{E} & 0\\0 & 0 & 0 & 0 & 0 & \frac{2 \left(\nu + 1\right)}{E}\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\frac{1}{E} & - \frac{\nu}{E} & - \frac{\nu}{E} & 0 & 0 & 0\\- \frac{\nu}{E} & \frac{1}{E} & - \frac{\nu}{E} & 0 & 0 & 0\\- \frac{\nu}{E} & - \frac{\nu}{E} & \frac{1}{E} & 0 & 0 & 0\\0 & 0 & 0 & \frac{2 \left(\nu + 1\right)}{E} & 0 & 0\\0 & 0 & 0 & 0 & \frac{2 \left(\nu + 1\right)}{E} & 0\\0 & 0 & 0 & 0 & 0 & \frac{2 \left(\nu + 1\right)}{E}\end{matrix}\right]$$
 
 
 
@@ -149,15 +149,15 @@ display(symbolic_isotropic_material.compliance_tensor().data)
 
 
 
-$\displaystyle \left[\begin{matrix}\lambda + 2 \mu & \lambda & \lambda & 0 & 0 & 0\\\lambda & \lambda + 2 \mu & \lambda & 0 & 0 & 0\\\lambda & \lambda & \lambda + 2 \mu & 0 & 0 & 0\\0 & 0 & 0 & \mu & 0 & 0\\0 & 0 & 0 & 0 & \mu & 0\\0 & 0 & 0 & 0 & 0 & \mu\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\lambda + 2 \mu & \lambda & \lambda & 0 & 0 & 0\\\lambda & \lambda + 2 \mu & \lambda & 0 & 0 & 0\\\lambda & \lambda & \lambda + 2 \mu & 0 & 0 & 0\\0 & 0 & 0 & \mu & 0 & 0\\0 & 0 & 0 & 0 & \mu & 0\\0 & 0 & 0 & 0 & 0 & \mu\end{matrix}\right]$$
 
 
 
-$\displaystyle \left[\begin{matrix}\frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & 0 & 0 & 0\\- \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & \frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & 0 & 0 & 0\\- \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & \frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & 0 & 0 & 0\\0 & 0 & 0 & \frac{E_{a}}{2 \left(\nu_{b} + 1\right)} & 0 & 0\\0 & 0 & 0 & 0 & \frac{E_{a}}{2 \left(\nu_{b} + 1\right)} & 0\\0 & 0 & 0 & 0 & 0 & \frac{E_{a}}{2 \left(\nu_{b} + 1\right)}\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & 0 & 0 & 0\\- \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & \frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & 0 & 0 & 0\\- \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & \frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} & 0 & 0 & 0\\0 & 0 & 0 & \frac{E_{a}}{2 \left(\nu_{b} + 1\right)} & 0 & 0\\0 & 0 & 0 & 0 & \frac{E_{a}}{2 \left(\nu_{b} + 1\right)} & 0\\0 & 0 & 0 & 0 & 0 & \frac{E_{a}}{2 \left(\nu_{b} + 1\right)}\end{matrix}\right]$$
 
 
 
-$\displaystyle \left[\begin{matrix}\frac{1}{E_{a}} & - \frac{\nu_{b}}{E_{a}} & - \frac{\nu_{b}}{E_{a}} & 0 & 0 & 0\\- \frac{\nu_{b}}{E_{a}} & \frac{1}{E_{a}} & - \frac{\nu_{b}}{E_{a}} & 0 & 0 & 0\\- \frac{\nu_{b}}{E_{a}} & - \frac{\nu_{b}}{E_{a}} & \frac{1}{E_{a}} & 0 & 0 & 0\\0 & 0 & 0 & \frac{2 \left(\nu_{b} + 1\right)}{E_{a}} & 0 & 0\\0 & 0 & 0 & 0 & \frac{2 \left(\nu_{b} + 1\right)}{E_{a}} & 0\\0 & 0 & 0 & 0 & 0 & \frac{2 \left(\nu_{b} + 1\right)}{E_{a}}\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\frac{1}{E_{a}} & - \frac{\nu_{b}}{E_{a}} & - \frac{\nu_{b}}{E_{a}} & 0 & 0 & 0\\- \frac{\nu_{b}}{E_{a}} & \frac{1}{E_{a}} & - \frac{\nu_{b}}{E_{a}} & 0 & 0 & 0\\- \frac{\nu_{b}}{E_{a}} & - \frac{\nu_{b}}{E_{a}} & \frac{1}{E_{a}} & 0 & 0 & 0\\0 & 0 & 0 & \frac{2 \left(\nu_{b} + 1\right)}{E_{a}} & 0 & 0\\0 & 0 & 0 & 0 & \frac{2 \left(\nu_{b} + 1\right)}{E_{a}} & 0\\0 & 0 & 0 & 0 & 0 & \frac{2 \left(\nu_{b} + 1\right)}{E_{a}}\end{matrix}\right]$$
 
 
 
@@ -175,11 +175,11 @@ display(symbolic_isotropic_material.compliance_tensor().data)
 
 
 
-$\displaystyle \left[\begin{matrix}\lambda + 2 \mu & \lambda & \lambda & 0 & 0 & 0\\\lambda & \lambda + 2 \mu & \lambda & 0 & 0 & 0\\\lambda & \lambda & \lambda + 2 \mu & 0 & 0 & 0\\0 & 0 & 0 & \mu & 0 & 0\\0 & 0 & 0 & 0 & \mu & 0\\0 & 0 & 0 & 0 & 0 & \mu\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\lambda + 2 \mu & \lambda & \lambda & 0 & 0 & 0\\\lambda & \lambda + 2 \mu & \lambda & 0 & 0 & 0\\\lambda & \lambda & \lambda + 2 \mu & 0 & 0 & 0\\0 & 0 & 0 & \mu & 0 & 0\\0 & 0 & 0 & 0 & \mu & 0\\0 & 0 & 0 & 0 & 0 & \mu\end{matrix}\right]$$
 
 
 
-$\displaystyle \left[\begin{matrix}\frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} & - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & 0 & 0 & 0\\- \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & \frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} & - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & 0 & 0 & 0\\- \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & \frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} & 0 & 0 & 0\\0 & 0 & 0 & \frac{1}{\mu} & 0 & 0\\0 & 0 & 0 & 0 & \frac{1}{\mu} & 0\\0 & 0 & 0 & 0 & 0 & \frac{1}{\mu}\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} & - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & 0 & 0 & 0\\- \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & \frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} & - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & 0 & 0 & 0\\- \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} & \frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} & 0 & 0 & 0\\0 & 0 & 0 & \frac{1}{\mu} & 0 & 0\\0 & 0 & 0 & 0 & \frac{1}{\mu} & 0\\0 & 0 & 0 & 0 & 0 & \frac{1}{\mu}\end{matrix}\right]$$
 
 
 
@@ -196,11 +196,11 @@ display(symbolic_isotropic_material.compliance_tensor().data)
 
 
 
-$\displaystyle \left[\begin{matrix}\lambda_{a} + 2 \mu_{b} & \lambda_{a} & \lambda_{a} & 0 & 0 & 0\\\lambda_{a} & \lambda_{a} + 2 \mu_{b} & \lambda_{a} & 0 & 0 & 0\\\lambda_{a} & \lambda_{a} & \lambda_{a} + 2 \mu_{b} & 0 & 0 & 0\\0 & 0 & 0 & \mu_{b} & 0 & 0\\0 & 0 & 0 & 0 & \mu_{b} & 0\\0 & 0 & 0 & 0 & 0 & \mu_{b}\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\lambda_{a} + 2 \mu_{b} & \lambda_{a} & \lambda_{a} & 0 & 0 & 0\\\lambda_{a} & \lambda_{a} + 2 \mu_{b} & \lambda_{a} & 0 & 0 & 0\\\lambda_{a} & \lambda_{a} & \lambda_{a} + 2 \mu_{b} & 0 & 0 & 0\\0 & 0 & 0 & \mu_{b} & 0 & 0\\0 & 0 & 0 & 0 & \mu_{b} & 0\\0 & 0 & 0 & 0 & 0 & \mu_{b}\end{matrix}\right]$$
 
 
 
-$\displaystyle \left[\begin{matrix}\frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & 0 & 0 & 0\\- \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & \frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & 0 & 0 & 0\\- \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & \frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & 0 & 0 & 0\\0 & 0 & 0 & \frac{1}{\mu_{b}} & 0 & 0\\0 & 0 & 0 & 0 & \frac{1}{\mu_{b}} & 0\\0 & 0 & 0 & 0 & 0 & \frac{1}{\mu_{b}}\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & 0 & 0 & 0\\- \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & \frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & 0 & 0 & 0\\- \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & \frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} & 0 & 0 & 0\\0 & 0 & 0 & \frac{1}{\mu_{b}} & 0 & 0\\0 & 0 & 0 & 0 & \frac{1}{\mu_{b}} & 0\\0 & 0 & 0 & 0 & 0 & \frac{1}{\mu_{b}}\end{matrix}\right]$$
 
 
 
@@ -211,7 +211,7 @@ display(transverse_isotropic_material.stiffness_tensor().data)
 ```
 
 
-$\displaystyle \left[\begin{matrix}- \frac{E_{L}}{\nu^{2} - 1} & - \frac{E_{L} \nu}{\nu - 1} & - \frac{E_{L} \nu}{\nu - 1} & 0 & 0 & 0\\- \frac{E_{L} \nu}{\nu - 1} & - \frac{E_{L}}{\nu^{2} - 1} & - \frac{E_{L} \nu}{\nu - 1} & 0 & 0 & 0\\- \frac{E_{L} \nu}{\nu - 1} & - \frac{E_{L} \nu}{\nu - 1} & E_{T} & 0 & 0 & 0\\0 & 0 & 0 & G_{L} & 0 & 0\\0 & 0 & 0 & 0 & G_{L} & 0\\0 & 0 & 0 & 0 & 0 & G_{T}\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}- \frac{E_{L}}{\nu^{2} - 1} & - \frac{E_{L} \nu}{\nu - 1} & - \frac{E_{L} \nu}{\nu - 1} & 0 & 0 & 0\\- \frac{E_{L} \nu}{\nu - 1} & - \frac{E_{L}}{\nu^{2} - 1} & - \frac{E_{L} \nu}{\nu - 1} & 0 & 0 & 0\\- \frac{E_{L} \nu}{\nu - 1} & - \frac{E_{L} \nu}{\nu - 1} & E_{T} & 0 & 0 & 0\\0 & 0 & 0 & G_{L} & 0 & 0\\0 & 0 & 0 & 0 & G_{L} & 0\\0 & 0 & 0 & 0 & 0 & G_{T}\end{matrix}\right]$$
 
 
 
@@ -246,11 +246,11 @@ display(orthotropic_material.compliance_tensor().data)
 
 
 
-$\displaystyle \left[\begin{matrix}E_{1} & 0.3 E_{1} n & 0.3 E_{1} & 0 & 0 & 0\\0.3 E_{1} n & E_{1} n & 0.3 E_{1} n & 0 & 0 & 0\\0.3 E_{1} & 0.3 E_{1} n & E_{1} n & 0 & 0 & 0\\0 & 0 & 0 & G_{12} m & 0 & 0\\0 & 0 & 0 & 0 & G_{12} p & 0\\0 & 0 & 0 & 0 & 0 & G_{12}\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}E_{1} & 0.3 E_{1} n & 0.3 E_{1} & 0 & 0 & 0\\0.3 E_{1} n & E_{1} n & 0.3 E_{1} n & 0 & 0 & 0\\0.3 E_{1} & 0.3 E_{1} n & E_{1} n & 0 & 0 & 0\\0 & 0 & 0 & G_{12} m & 0 & 0\\0 & 0 & 0 & 0 & G_{12} p & 0\\0 & 0 & 0 & 0 & 0 & G_{12}\end{matrix}\right]$$
 
 
 
-$\displaystyle \left[\begin{matrix}\frac{n \left(0.91 - 0.0819 n\right)}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & \frac{0.027 n^{2} - 0.3081 n + 0.09}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & \frac{- 0.0081 n^{2} + 0.117 n - 0.3}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & 0 & 0 & 0\\\frac{0.027 n^{2} - 0.3081 n + 0.09}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & \frac{- 0.09 n^{2} + 1.0081 n - 0.09}{E_{1} n \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & \frac{0.0189 n - 0.21}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & 0 & 0 & 0\\\frac{0.3 - 0.09 n}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} & \frac{0.21}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} & \frac{0.09 n - 1.0}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} & 0 & 0 & 0\\0 & 0 & 0 & \frac{1}{G_{12} m} & 0 & 0\\0 & 0 & 0 & 0 & \frac{1}{G_{12} p} & 0\\0 & 0 & 0 & 0 & 0 & \frac{1}{G_{12}}\end{matrix}\right]$
+$$\displaystyle \left[\begin{matrix}\frac{n \left(0.91 - 0.0819 n\right)}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & \frac{0.027 n^{2} - 0.3081 n + 0.09}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & \frac{- 0.0081 n^{2} + 0.117 n - 0.3}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & 0 & 0 & 0\\\frac{0.027 n^{2} - 0.3081 n + 0.09}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & \frac{- 0.09 n^{2} + 1.0081 n - 0.09}{E_{1} n \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & \frac{0.0189 n - 0.21}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} & 0 & 0 & 0\\\frac{0.3 - 0.09 n}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} & \frac{0.21}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} & \frac{0.09 n - 1.0}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} & 0 & 0 & 0\\0 & 0 & 0 & \frac{1}{G_{12} m} & 0 & 0\\0 & 0 & 0 & 0 & \frac{1}{G_{12} p} & 0\\0 & 0 & 0 & 0 & 0 & \frac{1}{G_{12}}\end{matrix}\right]$$
 
 
 

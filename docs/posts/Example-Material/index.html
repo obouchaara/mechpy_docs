@@ -268,6 +268,10 @@
 
   <!-- A placeholder to allow defining custom metadata -->
 
+
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
 </head>
 
 
@@ -770,17 +774,17 @@ None
 <span class="nf">display</span><span class="p">(</span><span class="n">sp</span><span class="p">.</span><span class="nf">simplify</span><span class="p">((</span><span class="n">E</span><span class="p">)),</span> <span class="n">sp</span><span class="p">.</span><span class="nf">simplify</span><span class="p">(</span><span class="n">nu</span><span class="p">))</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>$\displaystyle \frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)}$</p>
+\[\displaystyle \frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)}\]
 
-<p>$\displaystyle \frac{E}{2 \nu + 2}$</p>
+\[\displaystyle \frac{E}{2 \nu + 2}\]
 
-<p>$\displaystyle \frac{E \left(\frac{3 E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{2 E}{2 \nu + 2}\right)}{\left(2 \nu + 2\right) \left(\frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{E}{2 \nu + 2}\right)}$</p>
+\[\displaystyle \frac{E \left(\frac{3 E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{2 E}{2 \nu + 2}\right)}{\left(2 \nu + 2\right) \left(\frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{E}{2 \nu + 2}\right)}\]
 
-<p>$\displaystyle \frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right) \left(\frac{2 E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{2 E}{2 \nu + 2}\right)}$</p>
+\[\displaystyle \frac{E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right) \left(\frac{2 E \nu}{\left(1 - 2 \nu\right) \left(\nu + 1\right)} + \frac{2 E}{2 \nu + 2}\right)}\]
 
-<p>$\displaystyle E$</p>
+\[\displaystyle E\]
 
-<p>$\displaystyle \nu$</p>
+\[\displaystyle \nu\]
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -800,9 +804,9 @@ None
 </pre></td><td class="rouge-code"><pre>SymbolicIsotropicMaterial(E, nu)
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>$\displaystyle \left[\begin{matrix}\lambda + 2 \mu &amp; \lambda &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\lambda &amp; \lambda + 2 \mu &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\lambda &amp; \lambda &amp; \lambda + 2 \mu &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \mu &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\lambda + 2 \mu &amp; \lambda &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\\lambda &amp; \lambda + 2 \mu &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\\lambda &amp; \lambda &amp; \lambda + 2 \mu &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \mu &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu\end{matrix}\right]\]
 
-<p>$\displaystyle \left[\begin{matrix}\frac{1}{E} &amp; - \frac{\nu}{E} &amp; - \frac{\nu}{E} &amp; 0 &amp; 0 &amp; 0\- \frac{\nu}{E} &amp; \frac{1}{E} &amp; - \frac{\nu}{E} &amp; 0 &amp; 0 &amp; 0\- \frac{\nu}{E} &amp; - \frac{\nu}{E} &amp; \frac{1}{E} &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu + 1\right)}{E} &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu + 1\right)}{E} &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu + 1\right)}{E}\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\frac{1}{E} &amp; - \frac{\nu}{E} &amp; - \frac{\nu}{E} &amp; 0 &amp; 0 &amp; 0\\- \frac{\nu}{E} &amp; \frac{1}{E} &amp; - \frac{\nu}{E} &amp; 0 &amp; 0 &amp; 0\\- \frac{\nu}{E} &amp; - \frac{\nu}{E} &amp; \frac{1}{E} &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu + 1\right)}{E} &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu + 1\right)}{E} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu + 1\right)}{E}\end{matrix}\right]\]
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -826,11 +830,11 @@ None
 </pre></td><td class="rouge-code"><pre>SymbolicIsotropicMaterial(E_a, nu_b)
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>$\displaystyle \left[\begin{matrix}\lambda + 2 \mu &amp; \lambda &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\lambda &amp; \lambda + 2 \mu &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\lambda &amp; \lambda &amp; \lambda + 2 \mu &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \mu &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\lambda + 2 \mu &amp; \lambda &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\\lambda &amp; \lambda + 2 \mu &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\\lambda &amp; \lambda &amp; \lambda + 2 \mu &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \mu &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu\end{matrix}\right]\]
 
-<p>$\displaystyle \left[\begin{matrix}\frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; 0 &amp; 0 &amp; 0\- \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; \frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; 0 &amp; 0 &amp; 0\- \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; \frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \frac{E_{a}}{2 \left(\nu_{b} + 1\right)} &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{E_{a}}{2 \left(\nu_{b} + 1\right)} &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{E_{a}}{2 \left(\nu_{b} + 1\right)}\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; 0 &amp; 0 &amp; 0\\- \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; \frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; 0 &amp; 0 &amp; 0\\- \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; - \frac{E_{a} \nu_{b}}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; \frac{E_{a} \left(\nu_{b} - 1\right)}{\left(\nu_{b} + 1\right) \left(2 \nu_{b} - 1\right)} &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \frac{E_{a}}{2 \left(\nu_{b} + 1\right)} &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{E_{a}}{2 \left(\nu_{b} + 1\right)} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{E_{a}}{2 \left(\nu_{b} + 1\right)}\end{matrix}\right]\]
 
-<p>$\displaystyle \left[\begin{matrix}\frac{1}{E_{a}} &amp; - \frac{\nu_{b}}{E_{a}} &amp; - \frac{\nu_{b}}{E_{a}} &amp; 0 &amp; 0 &amp; 0\- \frac{\nu_{b}}{E_{a}} &amp; \frac{1}{E_{a}} &amp; - \frac{\nu_{b}}{E_{a}} &amp; 0 &amp; 0 &amp; 0\- \frac{\nu_{b}}{E_{a}} &amp; - \frac{\nu_{b}}{E_{a}} &amp; \frac{1}{E_{a}} &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu_{b} + 1\right)}{E_{a}} &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu_{b} + 1\right)}{E_{a}} &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu_{b} + 1\right)}{E_{a}}\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\frac{1}{E_{a}} &amp; - \frac{\nu_{b}}{E_{a}} &amp; - \frac{\nu_{b}}{E_{a}} &amp; 0 &amp; 0 &amp; 0\\- \frac{\nu_{b}}{E_{a}} &amp; \frac{1}{E_{a}} &amp; - \frac{\nu_{b}}{E_{a}} &amp; 0 &amp; 0 &amp; 0\\- \frac{\nu_{b}}{E_{a}} &amp; - \frac{\nu_{b}}{E_{a}} &amp; \frac{1}{E_{a}} &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu_{b} + 1\right)}{E_{a}} &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu_{b} + 1\right)}{E_{a}} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{2 \left(\nu_{b} + 1\right)}{E_{a}}\end{matrix}\right]\]
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -854,9 +858,9 @@ None
 </pre></td><td class="rouge-code"><pre>SymbolicIsotropicMaterial(mu*(3*lamda + 2*mu)/(lamda + mu), lamda/(2*lamda + 2*mu))
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>$\displaystyle \left[\begin{matrix}\lambda + 2 \mu &amp; \lambda &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\lambda &amp; \lambda + 2 \mu &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\lambda &amp; \lambda &amp; \lambda + 2 \mu &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \mu &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\lambda + 2 \mu &amp; \lambda &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\\lambda &amp; \lambda + 2 \mu &amp; \lambda &amp; 0 &amp; 0 &amp; 0\\\lambda &amp; \lambda &amp; \lambda + 2 \mu &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \mu &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu\end{matrix}\right]\]
 
-<p>$\displaystyle \left[\begin{matrix}\frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} &amp; - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; 0 &amp; 0 &amp; 0\- \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; \frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} &amp; - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; 0 &amp; 0 &amp; 0\- \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; \frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu} &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu} &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu}\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} &amp; - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; 0 &amp; 0 &amp; 0\\- \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; \frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} &amp; - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; 0 &amp; 0 &amp; 0\\- \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; - \frac{\lambda}{2 \mu \left(3 \lambda + 2 \mu\right)} &amp; \frac{\lambda + \mu}{\mu \left(3 \lambda + 2 \mu\right)} &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu} &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu}\end{matrix}\right]\]
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -878,9 +882,9 @@ None
 </pre></td><td class="rouge-code"><pre>SymbolicIsotropicMaterial(mu_b*(3*lamda_a + 2*mu_b)/(lamda_a + mu_b), lamda_a/(2*lamda_a + 2*mu_b))
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>$\displaystyle \left[\begin{matrix}\lambda_{a} + 2 \mu_{b} &amp; \lambda_{a} &amp; \lambda_{a} &amp; 0 &amp; 0 &amp; 0\\lambda_{a} &amp; \lambda_{a} + 2 \mu_{b} &amp; \lambda_{a} &amp; 0 &amp; 0 &amp; 0\\lambda_{a} &amp; \lambda_{a} &amp; \lambda_{a} + 2 \mu_{b} &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \mu_{b} &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu_{b} &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu_{b}\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\lambda_{a} + 2 \mu_{b} &amp; \lambda_{a} &amp; \lambda_{a} &amp; 0 &amp; 0 &amp; 0\\\lambda_{a} &amp; \lambda_{a} + 2 \mu_{b} &amp; \lambda_{a} &amp; 0 &amp; 0 &amp; 0\\\lambda_{a} &amp; \lambda_{a} &amp; \lambda_{a} + 2 \mu_{b} &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \mu_{b} &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu_{b} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \mu_{b}\end{matrix}\right]\]
 
-<p>$\displaystyle \left[\begin{matrix}\frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; 0 &amp; 0 &amp; 0\- \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; \frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; 0 &amp; 0 &amp; 0\- \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; \frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu_{b}} &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu_{b}} &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu_{b}}\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; 0 &amp; 0 &amp; 0\\- \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; \frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; 0 &amp; 0 &amp; 0\\- \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; - \frac{\lambda_{a}}{2 \mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; \frac{\lambda_{a} + \mu_{b}}{\mu_{b} \left(3 \lambda_{a} + 2 \mu_{b}\right)} &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu_{b}} &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu_{b}} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{\mu_{b}}\end{matrix}\right]\]
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -892,7 +896,7 @@ None
 <span class="c1"># display(transverse_isotropic_material.compliance_tensor().data)
 </span></pre></td></tr></tbody></table></code></div></div>
 
-<p>$\displaystyle \left[\begin{matrix}- \frac{E_{L}}{\nu^{2} - 1} &amp; - \frac{E_{L} \nu}{\nu - 1} &amp; - \frac{E_{L} \nu}{\nu - 1} &amp; 0 &amp; 0 &amp; 0\- \frac{E_{L} \nu}{\nu - 1} &amp; - \frac{E_{L}}{\nu^{2} - 1} &amp; - \frac{E_{L} \nu}{\nu - 1} &amp; 0 &amp; 0 &amp; 0\- \frac{E_{L} \nu}{\nu - 1} &amp; - \frac{E_{L} \nu}{\nu - 1} &amp; E_{T} &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; G_{L} &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; G_{L} &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; G_{T}\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}- \frac{E_{L}}{\nu^{2} - 1} &amp; - \frac{E_{L} \nu}{\nu - 1} &amp; - \frac{E_{L} \nu}{\nu - 1} &amp; 0 &amp; 0 &amp; 0\\- \frac{E_{L} \nu}{\nu - 1} &amp; - \frac{E_{L}}{\nu^{2} - 1} &amp; - \frac{E_{L} \nu}{\nu - 1} &amp; 0 &amp; 0 &amp; 0\\- \frac{E_{L} \nu}{\nu - 1} &amp; - \frac{E_{L} \nu}{\nu - 1} &amp; E_{T} &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; G_{L} &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; G_{L} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; G_{T}\end{matrix}\right]\]
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -950,9 +954,9 @@ None
  'nu31': 0.3}
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>$\displaystyle \left[\begin{matrix}E_{1} &amp; 0.3 E_{1} n &amp; 0.3 E_{1} &amp; 0 &amp; 0 &amp; 0\0.3 E_{1} n &amp; E_{1} n &amp; 0.3 E_{1} n &amp; 0 &amp; 0 &amp; 0\0.3 E_{1} &amp; 0.3 E_{1} n &amp; E_{1} n &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; G_{12} m &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; G_{12} p &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; G_{12}\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}E_{1} &amp; 0.3 E_{1} n &amp; 0.3 E_{1} &amp; 0 &amp; 0 &amp; 0\\0.3 E_{1} n &amp; E_{1} n &amp; 0.3 E_{1} n &amp; 0 &amp; 0 &amp; 0\\0.3 E_{1} &amp; 0.3 E_{1} n &amp; E_{1} n &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; G_{12} m &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; G_{12} p &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; G_{12}\end{matrix}\right]\]
 
-<p>$\displaystyle \left[\begin{matrix}\frac{n \left(0.91 - 0.0819 n\right)}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; \frac{0.027 n^{2} - 0.3081 n + 0.09}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; \frac{- 0.0081 n^{2} + 0.117 n - 0.3}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; 0 &amp; 0 &amp; 0\\frac{0.027 n^{2} - 0.3081 n + 0.09}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; \frac{- 0.09 n^{2} + 1.0081 n - 0.09}{E_{1} n \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; \frac{0.0189 n - 0.21}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; 0 &amp; 0 &amp; 0\\frac{0.3 - 0.09 n}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} &amp; \frac{0.21}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} &amp; \frac{0.09 n - 1.0}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} &amp; 0 &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; \frac{1}{G_{12} m} &amp; 0 &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{G_{12} p} &amp; 0\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{G_{12}}\end{matrix}\right]$</p>
+\[\displaystyle \left[\begin{matrix}\frac{n \left(0.91 - 0.0819 n\right)}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; \frac{0.027 n^{2} - 0.3081 n + 0.09}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; \frac{- 0.0081 n^{2} + 0.117 n - 0.3}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; 0 &amp; 0 &amp; 0\\\frac{0.027 n^{2} - 0.3081 n + 0.09}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; \frac{- 0.09 n^{2} + 1.0081 n - 0.09}{E_{1} n \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; \frac{0.0189 n - 0.21}{E_{1} \cdot \left(0.0081 n^{3} - 0.17676 n^{2} + 0.9721 n - 0.09\right)} &amp; 0 &amp; 0 &amp; 0\\\frac{0.3 - 0.09 n}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} &amp; \frac{0.21}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} &amp; \frac{0.09 n - 1.0}{E_{1} \cdot \left(0.09 n^{2} - 0.964 n + 0.09\right)} &amp; 0 &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; \frac{1}{G_{12} m} &amp; 0 &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{G_{12} p} &amp; 0\\0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; \frac{1}{G_{12}}\end{matrix}\right]\]
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
