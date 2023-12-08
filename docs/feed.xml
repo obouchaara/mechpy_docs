@@ -4,7 +4,7 @@
   <id>https://mechpy.org/</id>
   <title>MechPy</title>
   <subtitle>MechPy: Empowering Engineers with a Comprehensive Toolbox for Continuum Mechanics and Finite Element Method (FEM) Analysis.</subtitle>
-  <updated>2023-12-07T17:12:39+01:00</updated>
+  <updated>2023-12-08T11:18:25+01:00</updated>
   <author>
     <name>Omar BOUCHAARA</name>
     <uri>https://mechpy.org/</uri>
@@ -20,11 +20,58 @@
 
   
   <entry>
+    <title>Example - Material</title>
+    <link href="https://mechpy.org/posts/Example-Material/" rel="alternate" type="text/html" title="Example - Material" />
+    <published>2023-12-08T11:00:00+01:00</published>
+  
+    <updated>2023-12-08T11:00:00+01:00</updated>
+  
+    <id>https://mechpy.org/posts/Example-Material/</id>
+    <content src="https://mechpy.org/posts/Example-Material/" />
+    <author>
+      <name>omar</name>
+    </author>
+
+  
+    
+    <category term="example" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      import sys
+import numpy as np
+import sympy as sp
+
+sys.path.append("../src")
+
+from core.numeric.material import IsotropicMaterial, TransverseIsotropicMaterial
+from core.symbolic.material import SymbolicIsotropicMaterial, SymbolicTransverseIsotropicMaterial,SymbolicOrthotropicMaterial
+
+np.set_printoptions(formatter={"float": "{:0.2e}".format})
+
+
+isotropic_material = IsotropicMaterial(210e9, 0.3)
+...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Introducing MechPy!</title>
     <link href="https://mechpy.org/posts/welcome/" rel="alternate" type="text/html" title="Introducing MechPy!" />
     <published>2023-12-01T18:00:00+01:00</published>
   
-    <updated>2023-12-03T20:55:08+01:00</updated>
+    <updated>2023-12-07T17:13:10+01:00</updated>
   
     <id>https://mechpy.org/posts/welcome/</id>
     <content src="https://mechpy.org/posts/welcome/" />
