@@ -19,6 +19,8 @@ const resource = [
   
     '/about/',
   
+    '/docs/',
+  
 
   /* --- Favicons & compressed JS --- */
   
